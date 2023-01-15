@@ -5,15 +5,16 @@ import java.util.Scanner;
 public class peterPractice {
     public static void main(String[] args) {
 
-        for (int i = 2011; i <= 2019; i++) {
+       Scanner scanner=new Scanner(System.in);
+        System.out.println("Please enter any number");
+       int x= scanner.nextInt();
 
-            System.out.println("Hey,it is year:");
-            System.out.println(i);
+        for (int i = 0; i < x; i++) {
+            System.out.print(i+" ");
 
         }
+    }}
 
-    }
-}
 
 
 
