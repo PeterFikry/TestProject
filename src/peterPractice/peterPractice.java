@@ -9,8 +9,9 @@ public class peterPractice {
 
         System.out.println("Please enter 5 numbers");
         int[] numbers = new int[5];
+
         for (int i = 0; i <= numbers.length; i++) {
-        numbers[i] = scanner.nextInt();
+            numbers[i] = scanner.nextInt();
 
 
 
@@ -18,7 +19,7 @@ public class peterPractice {
 
             {
 
-                System.out.println(numbers[i] * 10);
+                System.out.println(Arrays.toString(numbers));
             }
 
 
