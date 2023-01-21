@@ -5,31 +5,19 @@ import java.util.Scanner;
 
 public class peterPractice {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        int m=2, total=0;
 
-        System.out.println("Please enter 5 numbers");
-        int[] numbers = new int[5];
+        while(m<6) {
 
-        for (int i = 0; i <= numbers.length; i++) {
-            numbers[i] = scanner.nextInt();
+            total=total+m;
 
-
-
-
-
-            {
-
-                System.out.println(Arrays.toString(numbers));
-            }
-
+            m++;
 
         }
 
+        System.out.print(total);
     }
 }
-
-
-
 
 
 
