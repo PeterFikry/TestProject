@@ -3,8 +3,8 @@ package class3;
 public class OperatorDemo_3 {
     public static void main(String[] args) {
         int number=10;
-        System.out.println(number/3); // 3 number without decimal
-        System.out.println(number%3); // 1 the rest of number 10
+        System.out.println(number/3); // 3 number without decimal - result will be 3
+        System.out.println(number%3); // 1 the rest of number 10 - result will be 1
 
         System.out.println(16/5);
         System.out.println(16%5); // second example

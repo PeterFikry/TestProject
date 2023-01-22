@@ -6,7 +6,7 @@ public class IfElse_9 {
         char c='M';
 
         if(c=='M'){
-            System.out.println("Male");
+            System.out.println("Male");                     // result will be male
         }
 
         String name="Nat";
