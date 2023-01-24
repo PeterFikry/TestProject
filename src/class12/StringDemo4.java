@@ -6,7 +6,7 @@ public class StringDemo4 {
 
         String str=" ";
         boolean isEmpty=str.isEmpty();
-        System.out.println(isEmpty);
+        System.out.println(isEmpty);            //result will be false if it's include anything or space
 
     }
 }

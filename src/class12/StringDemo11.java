@@ -8,7 +8,7 @@ public class StringDemo11 {
         String newStr=str.substring(27);
         System.out.println(newStr);
         // we can also specify the starting point and the ending point
-        System.out.println(str.substring(0,27));
+        System.out.println(str.substring(8,27));
 
     }
 }

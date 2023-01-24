@@ -1,23 +1,22 @@
 package peterPractice;
 
-import java.util.Arrays;
-import java.util.Scanner;
+ public class peterPractice {
 
-public class peterPractice {
-    public static void main(String[] args) {
-        int m=2, total=0;
+       String carColor;
+       int carYear;
+       String carMake;
 
-        while(m<6) {
 
-            total=total+m;
+     }
 
-            m++;
 
-        }
 
-        System.out.print(total);
-    }
-}
+
+
+
+
+
+
 
 
 
