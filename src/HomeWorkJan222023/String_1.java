@@ -14,7 +14,7 @@ public class String_1 {
         boolean isEmpty = str.isEmpty();
 
         for (int i = 0; i < str.length(); i++) {
-            if (str.equals(isEmpty) || str.charAt(i) >= 3||str.charAt(i)%2!=0) {
+            if (!str.equals(isEmpty) || str.charAt(i) >= 3||str.charAt(i)%2!=0) {
 
             }
         }
