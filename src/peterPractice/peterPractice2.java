@@ -3,15 +3,13 @@ package peterPractice;
 public class peterPractice2 {
     public static void main(String[] args) {
 
-        String str1 = "syntax technologies";
-        String str2="SYNTAX TECHNOLOGIES";
+        String given="I love Java classes at Syntax";
 
-        System.out.println(str1.toUpperCase());
-        System.out.println(str2.toLowerCase());
-
-        }
-
+        System.out.println(given.substring(12));
+        System.out.println(given.substring(0,11));
     }
+
+}
 
 
 

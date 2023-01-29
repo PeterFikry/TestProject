@@ -18,3 +18,22 @@ public class primeNumbers_7 {
         }
     }
 }
+/*
+                ****Another way****
+                int given =10;
+                boolean isPrime=true;
+
+                if(given>1){
+                for(int i=2; i<given; i++){
+
+                if(given%i==0){
+
+                    isPrime=flase;
+                    break;
+                    }
+                    }
+                    }else{
+                    isPrime=false;
+                }
+                System.out.println("Given number "+given+" is a prime?"+isPrime);
+ */

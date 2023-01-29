@@ -6,7 +6,7 @@ public class sum2DArrays_3 {
     public static void main(String[] args) {
 
         int[][] numbers = {{2, 4, 6, 8},
-                           {3, 5, 7, 9}};
+                {3, 5, 7, 9}};
 
         int sum = 0;
         for (int i = 0; i < 2; i++) {                   // 2 numbers of rows
@@ -16,6 +16,14 @@ public class sum2DArrays_3 {
         System.out.println(sum);
     }
 }
+
+        /*
+         Another way to solve it
+         int sum=0;
+        for (int[] num:numbers){
+        for(int nums:num){
+        sum+=num;
+        */
 
 
 

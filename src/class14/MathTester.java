@@ -10,8 +10,8 @@ public class MathTester {
         math.add(10,10);
         math.mul(2,2,2);
 
-        Scanner scanner=new Scanner(System.in);
-        int num=scanner.nextInt();
+        //Scanner scanner=new Scanner(System.in);
+        //int num=scanner.nextInt();
 
 
         int result= math.sub(100,50);
