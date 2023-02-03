@@ -1,6 +1,7 @@
 package Project24012023;
 
 public class primeNumbers_7 {
+    //Write a java program to check whether a given number is prime or not?
     public static void main(String[] args) {
 
         int num = 5;

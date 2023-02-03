@@ -3,6 +3,7 @@ package Project24012023;
 import java.util.Arrays;
 
 public class sum2DArrays_3 {
+    //Create a 2D array of integer values. Print the sum of all numbers.
     public static void main(String[] args) {
 
         int[][] numbers = {{2, 4, 6, 8},

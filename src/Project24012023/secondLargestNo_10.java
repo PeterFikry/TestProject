@@ -3,6 +3,7 @@ package Project24012023;
 import java.util.Arrays;
 
 public class secondLargestNo_10 {
+    //Write a java program to find the second largest number in the array?
     public static void main(String[] args) {
 
         int[] num = {10, 50, 45, 79, 22, 36, 23};

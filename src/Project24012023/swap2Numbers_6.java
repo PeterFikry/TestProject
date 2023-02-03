@@ -1,6 +1,7 @@
 package Project24012023;
 
 public class swap2Numbers_6 {
+    //Write a program to swap 2 numbers without a temporary variable?
     public static void main(String[] args) {
 
         int firstNumber=15;

@@ -3,8 +3,8 @@ package Project24012023;
 import java.util.Scanner;
 
 public class intArray_1 {
+    //Using Scanner create an array of integer values. After the array is created, calculate the sum of all stored elements in that array.
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please Enter 6 numbers");
         int[] num = new int[6];

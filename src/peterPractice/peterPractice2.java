@@ -1,12 +1,9 @@
 package peterPractice;
 
 public class peterPractice2 {
-    public static void main(String[] args) {
+    public void foo(int a, int b){
+        foo(1, 6);
 
-        String given="I love Java classes at Syntax";
-
-        System.out.println(given.substring(12));
-        System.out.println(given.substring(0,11));
     }
 
 }

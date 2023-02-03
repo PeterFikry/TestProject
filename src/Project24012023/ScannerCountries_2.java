@@ -3,6 +3,9 @@ package Project24012023;
 import java.util.Scanner;
 
 public class ScannerCountries_2 {
+
+    //Using Scanner create an array of countries.
+    // When an array is created, retrieve all values from it and while retrieving those values print capital for each country. (use 2 different loops).
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

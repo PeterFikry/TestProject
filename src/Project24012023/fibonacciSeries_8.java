@@ -1,6 +1,7 @@
 package Project24012023;
 
 public class fibonacciSeries_8 {
+    //Write a Java Program to print the first 10 numbers of Fibonacci series.
     public static void main(String[] args) {
 
         int k = 0, a = 1, b = 1;

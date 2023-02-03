@@ -1,6 +1,6 @@
 package class13;
 
-public class DtringVsStringBuilder {
+public class StringVsStringBuilder {
     public static void main(String[] args) {
 
         StringBuilder str = new StringBuilder();

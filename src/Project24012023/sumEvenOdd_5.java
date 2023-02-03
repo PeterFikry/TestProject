@@ -1,6 +1,8 @@
 package Project24012023;
 
 public class sumEvenOdd_5 {
+
+    //Create a 2D array of integers. Develop a program which will calculate the sum of even and odd numbers for that array.
     public static void main(String[] args) {
 
         int[][] numbers = {{10, 11, 12, 13, 14, 15},

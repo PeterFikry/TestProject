@@ -1,6 +1,7 @@
 package Project24012023;
 
 public class MaxMin_9 {
+    //Maximum and minimum number in the array?
     public static void main(String[] args) {
 
         int[] num = {10, 20, 35, 65, 70, 80, 95};
