@@ -25,7 +25,7 @@ class Savings extends BankAccount {
     }
 }
 class SuperSavings extends Savings{
-
+    double savings;
     void superSaving(){
         System.out.println("Super saving methods from SuperSaving class");
     }

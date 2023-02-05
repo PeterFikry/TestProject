@@ -6,7 +6,7 @@ public class Furniture {
     double price;
     String color;
 
-    // with the help of constructor we can initialize object with specific vlaue
+    // with the help of constructor we can initialize object with specific value
     Furniture(String type,double price,String color){
         this.type=type;
         this.price=price;

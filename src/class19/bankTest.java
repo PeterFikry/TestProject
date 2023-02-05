@@ -38,6 +38,12 @@ public class bankTest {
         //save.transfer(); not available
 
         //finish creating SuperSavings object and see which features available to that class
+        SuperSavings superSave=new SuperSavings();
+        superSave.accountNumber=34543536;
+        superSave.money=8453;
+        superSave.savings=3356;
+        superSave.profit=224;
+        superSave.superSaving();
     }
 }
 
