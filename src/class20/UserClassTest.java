@@ -5,7 +5,7 @@ public class UserClassTest {
 
         userInfo ui=new userInfo("tamer",76862832,"virginia");
         ui.userDetails();
-        ui.toString();
+
 
 
       /*  userInfo ui=new userInfo();

@@ -17,7 +17,7 @@ public class Sport {
 class Cricket extends Sport{
     String helmet;
     Cricket(String name,String country,String helmet){
-        super(name,country);        //makes a cll to the immediate super class constructor
+        super(name,country);        //makes a call to the immediate super class constructor
         //super () ALWAYS must be on the first line
         this.helmet=helmet;
     }
