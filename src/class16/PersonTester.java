@@ -10,7 +10,7 @@ public class PersonTester {
         System.out.println(person.name);        //public we can access it from anywhere
         person.printTikTokAccount();                //public
         person.printSSN();                         // default
-        //person.printPhonePassword();          private we can't access it
+        //person.printPhonePassword();          private we can't access it from different class
 
     }
 }

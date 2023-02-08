@@ -11,7 +11,7 @@ public class Hello_4 {
             case "USA":
                 return "Hello";
             case "Spain":
-                return "Hola";
+                return "ola";
             case "China":
                 return "Ni hao";
             default:
