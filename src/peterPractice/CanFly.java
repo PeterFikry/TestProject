@@ -2,6 +2,5 @@ package peterPractice;
 
 class Main {
 
+}
 
-   }
-   

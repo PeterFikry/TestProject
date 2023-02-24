@@ -26,7 +26,7 @@ class A extends Marks {
 
     @Override
     double getPercentage() {
-        return (subject1 + subject2 + subject3) / 3;
+        return (subject1 + subject2 + subject3) / 300*100;
     }
 }
 
@@ -45,7 +45,7 @@ class B extends Marks {
 
     @Override
     double getPercentage() {
-        return (subject1 + subject2 + subject3) / 3;
+        return (subject1 + subject2 + subject3) / 400*100;
     }
 
 }
@@ -55,8 +55,8 @@ class MarksTester {
         A studentA = new A(70, 85, 95);
         B studentB = new B(80, 76, 89, 92);
 
-        System.out.println("Student A average percentage " + studentA.getPercentage());
-        System.out.println("Student B average percentage " + studentB.getPercentage());
+        System.out.println("Student A average percentage " + studentA.getPercentage()+"%");
+        System.out.println("Student B average percentage " + studentB.getPercentage()+"%");
     }
 }
 

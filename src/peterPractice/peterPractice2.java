@@ -1,21 +1,33 @@
 package peterPractice;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 public class peterPractice2 {
+    public static boolean isPrime(int n) {
+        if (n <= 1) {
+            return false;
+        }
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
-    multiplication(3,10);
-    addition(15,15);
-    subtraction(40,20);
-
+        List<Integer> primes = new ArrayList<>();
+        for (int i = 2; i <= 100; i++) {
+            if (isPrime(i)) {
+                primes.add(i);
+            }
+        }
+        System.out.println(primes);
     }
+}
 
-    public static void multiplication(int a , int b) {
-        System.out.println("Multiplication " +(a*b));}
-    public static void addition(int a , int b) {
-        System.out.println("Addition " +(a+b));}
-
-    public static void subtraction(int a , int b) {
-        System.out.println("Subtraction " +(a-b));}
-    }
 
 
 
