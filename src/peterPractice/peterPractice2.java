@@ -1,53 +1,23 @@
 package peterPractice;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class peterPractice2 {
-    public static boolean isPrime(int n) {
-        if (n <= 1) {
-            return false;
-        }
-        for (int i = 2; i <= Math.sqrt(n); i++) {
-            if (n % i == 0) {
-                return false;
-            }
-        }
-        return true;
-    }
-
     public static void main(String[] args) {
-        List<Integer> primes = new ArrayList<>();
-        for (int i = 2; i <= 100; i++) {
-            if (isPrime(i)) {
-                primes.add(i);
-            }
+        TreeSet map = new TreeSet();
+        map.add("one");
+        map.add("two");
+        map.add("three");
+        map.add("four");
+        map.add("one");
+        Iterator it = map.iterator();
+        while (it.hasNext() )
+        {
+            System.out.print( it.next() + " " );
         }
-        System.out.println(primes);
     }
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

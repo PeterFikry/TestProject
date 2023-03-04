@@ -19,7 +19,7 @@ public class MapsDemo5 {
         studentsMap.put(7,"Saba");
 
         //remove all the keys from above map if they are greater than 2
-        Collection<Integer> keys=studentsMap.keySet();      //we can use collection anywhere instead of anything because it's the parent of all of them
+        Collection<Integer> keys=studentsMap.keySet();      //we can use collection anywhere instead of variables because it's the parent of all of them.
         keys.removeIf(x->x>2);
         System.out.println(keys);
         System.out.println(studentsMap);

@@ -1,6 +1,0 @@
-package peterPractice;
-
-class Main {
-
-}
-
