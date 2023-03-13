@@ -19,7 +19,7 @@ public class ExcelReaderDemo1 {
         XSSFWorkbook xssfWorkbook=new XSSFWorkbook(fileInputStream);
         //from the Excel file we need to get the sheet first using below method
         Sheet sheet1=xssfWorkbook.getSheet("sheet1");
-        //as we are inserted in the row 1 we pass 1 insode the getRow method
+        //as we are inserted in the row 1 we pass 1 inside the getRow method
         //rows and columns are indexed based just like arrays
         Row row= sheet1.getRow(1);
         //All the numbers are treated as doubles in Excel

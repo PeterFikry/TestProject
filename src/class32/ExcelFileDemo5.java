@@ -25,7 +25,5 @@ public class ExcelFileDemo5 {
             Row row = sheet2.getRow(i);
             System.out.println(row.getCell(0) + " " + row.getCell(1));
         }
-
-
     }
 }

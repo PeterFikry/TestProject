@@ -12,7 +12,7 @@ public class ConfigFileWriteDemo1 {
         //we use FileOutputStream when we have to write the data to a file
         FileOutputStream fileOutputStream=new FileOutputStream(path);
         Properties properties=new Properties();
-        //we use the setProperty method to store daa inside a properties files
+        //we use the setProperty method to store data inside a properties files
         properties.setProperty("Name","Anees");
         //A method to write the data to the disk
         properties.store(fileOutputStream,"A new name has been added");
